@@ -1,0 +1,11 @@
+sort1 uses: 冒泡排序
+
+How do you know?: sorted时间最短
+
+sort2 uses: 合并排序
+
+How do you know?: random时间最短
+
+sort3 uses: 选择排序
+
+How do you know?: 排除法
