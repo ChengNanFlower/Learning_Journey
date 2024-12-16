@@ -1,3 +1,4 @@
+// 将单词全部转发为大写
 #include <stdio.h>
 #include <string.h>
 

@@ -1,3 +1,4 @@
+// 利用结构体查找电话簿
 #include <stdio.h>
 #include <string.h>
 

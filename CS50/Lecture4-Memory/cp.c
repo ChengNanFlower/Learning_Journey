@@ -1,3 +1,4 @@
+// 复制图片
 #include <stdio.h>
 #include <stdint.h>
 

@@ -1,3 +1,4 @@
+// malloc动态分配内存，free释放内存
 #include <stdio.h>
 #include <stdlib.h>
 

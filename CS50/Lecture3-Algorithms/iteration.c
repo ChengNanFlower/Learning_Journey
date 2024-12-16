@@ -1,3 +1,4 @@
+// 砖块
 #include <stdio.h>
 
 void draw(int n);

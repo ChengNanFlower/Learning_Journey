@@ -1,3 +1,4 @@
+// 打印垃圾值
 #include <stdio.h>
 
 int main(void)

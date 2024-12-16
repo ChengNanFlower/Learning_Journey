@@ -1,4 +1,6 @@
+// 打印mario砖块
 #include <stdio.h>
+
 void space(int a);
 void hash(int b);
 

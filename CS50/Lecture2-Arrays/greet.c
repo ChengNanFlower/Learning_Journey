@@ -1,3 +1,4 @@
+// 用命令行参数说Hello
 #include <stdio.h>
 
 int main(int argc,char *argv[])

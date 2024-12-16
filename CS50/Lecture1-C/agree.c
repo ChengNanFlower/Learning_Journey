@@ -1,3 +1,4 @@
+//用户是否同意
 #include <stdio.h>
 
 int main(void)

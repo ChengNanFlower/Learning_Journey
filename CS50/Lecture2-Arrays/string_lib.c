@@ -1,3 +1,4 @@
+// 用string.h的函数获得名字长度
 #include <stdio.h>
 #include <string.h>
 

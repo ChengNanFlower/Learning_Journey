@@ -1,3 +1,4 @@
+// 二分查找
 #include <stdio.h>
 
 int main(void)

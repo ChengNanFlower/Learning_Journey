@@ -1,3 +1,4 @@
+// 复制并将字符串第一个字母大写
 #include<stdio.h>
 #include<ctype.h>
 #include<string.h>

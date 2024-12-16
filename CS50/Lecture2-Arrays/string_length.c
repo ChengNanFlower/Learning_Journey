@@ -1,5 +1,7 @@
+//实现自定义字符串长度计算函数
 #include <stdio.h>
-int string_length(char s[]);
+
+int string_length(char *s);
 
 int main(void)
 {
@@ -12,7 +14,7 @@ int main(void)
     return 0;
 }
 
-int string_length(char s[])
+int string_length(char *s)
 {
     int n = 0;
     while (s[n] != '\0')

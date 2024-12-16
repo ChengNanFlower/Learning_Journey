@@ -1,3 +1,4 @@
+// 输出名字长度的简单程序
 #include <stdio.h>
 
 int main(void)

@@ -1,3 +1,4 @@
+// 查找电话簿里的人名
 #include <stdio.h>
 #include <string.h>
 

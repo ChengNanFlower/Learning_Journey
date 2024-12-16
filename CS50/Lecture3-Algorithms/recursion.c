@@ -1,3 +1,4 @@
+// 递归打印砖块
 #include <stdio.h>
 
 void draw(int n);
