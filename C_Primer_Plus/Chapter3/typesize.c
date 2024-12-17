@@ -7,6 +7,7 @@ int main(void)
     printf("Size of char:          %zu bytes\n", sizeof(char));
     printf("Size of float:         %zu bytes\n", sizeof(float));
     printf("Size of double:        %zu bytes\n", sizeof(double));
+    printf("Size of long double:   %zu bytes\n", sizeof(long double));
     printf("Size of int:           %zu bytes\n",sizeof(int));
     printf("Size of short int:     %zu bytes\n",sizeof(short int));
     printf("Size of long int:      %zu bytes\n",sizeof(long int));// 32位系统是4byte,64位系统是8byte
