@@ -28,7 +28,7 @@ int main(int argc,char *argv[])
     }
     else
     {
-        printf("Usage: ./hw_Caesar key\n");
+        printf("Usage: ./bin/Caesar key\n");
         return 1;
     }
 }
