@@ -1,4 +1,4 @@
-// 根据用户键入的整数求和
+// 误用=会导致无限循环
 #include <stdio.h>
 
 int main(void)
@@ -10,7 +10,7 @@ int main(void)
     printf("Please enter an integer to be summed (q to quit): ");
     status = scanf("%ld", &num);
 
-    while (status == 1)
+    while (status = 1)
     {
         sum = sum + num;
         printf("Please enter next integer (q to quit): ");

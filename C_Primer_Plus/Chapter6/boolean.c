@@ -1,20 +1,20 @@
-// 根据用户键入的整数求和
+// 使用_Bool类型的变量
 #include <stdio.h>
 
 int main(void)
 {
     long num;
     long sum = 0L;
-    int status;
+    _Bool status;
 
     printf("Please enter an integer to be summed (q to quit): ");
-    status = scanf("%ld", &num);
+    status = (scanf("%ld", &num) == 1);
 
-    while (status == 1)
+    while (status)
     {
         sum = sum + num;
         printf("Please enter next integer (q to quit): ");
-        status = scanf("%ld", &num);
+        status = (scanf("%ld", &num) == 1);
     }
     printf("Those integers sum to %ld.\n", sum);
 
