@@ -14,7 +14,7 @@ int main(void)
         if (money <= 0)
             break;
     }
-    printf("The year is %d\n",year);
+    printf("The year is %d\n", year);
 
     return 0;
 }

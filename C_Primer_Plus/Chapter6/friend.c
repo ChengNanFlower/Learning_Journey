@@ -10,10 +10,10 @@ int main(void)
     {
         weeks++;
         friends = (friends - weeks) * 2;
-        printf("%d weeks ago, Dr.Rabnud has %d friends.\n",weeks,friends);
+        printf("%d weeks ago, Dr.Rabnud has %d friends.\n", weeks, friends);
         if (friends >= 150)
             break;
     }
-    
+
     return 0;
 }
