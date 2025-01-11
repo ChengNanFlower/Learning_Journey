@@ -4,19 +4,19 @@
 
 int main(void)
 {
-    FILE *file = fopen("phonebook.csv","a");
+    FILE *file = fopen("phonebook.csv", "a");
     if (file == NULL)
     {
         return 1;
     }
 
-    char name[20],number[30];
+    char name[20], number[30];
     printf("Name: ");
-    scanf("%s",name);
+    scanf("%s", name);
     printf("Number: ");
-    scanf("%s",number);
+    scanf("%s", number);
 
-    fprintf(file,"%s,%s\n",name,number);
+    fprintf(file, "%s,%s\n", name, number);
 
     fclose(file);
     return 0;
